@@ -5,9 +5,8 @@ Created on Wed Jan 28 18:44:34 2026
 @author: User
 """
 import streamlit as st
-st.image("car3.jpg", width=220)
-st.image("car7.jpg", width=220)
 
+st.set_page_config(layout="wide")
 
 st.set_page_config(
     page_title="Johnny – CSS 2026",
@@ -34,6 +33,9 @@ st.markdown("""
 - Creating Streamlit web apps
 - I love beans so bad
 """)
+st.image("car3.jpg", width=220)
+st.image("car7.jpg", width=220)
+
 
 
 
