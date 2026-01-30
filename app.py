@@ -24,4 +24,11 @@ st.write("""
 I am a student in the Coding Summer School.
 I am learning Python and Streamlit.
 """)
+st.subheader("🚀 What I'm working on")
+st.markdown("""
+- Learning Python fundamentals  
+- Building data pipelines  
+- Creating Streamlit web apps  
+""")
+
 
