@@ -28,7 +28,9 @@ st.subheader("🚀 What I'm working on")
 st.markdown("""
 - Learning Python fundamentals  
 - Building data pipelines  
-- Creating Streamlit web apps  
+- Creating Streamlit web apps
+- I love beans so bad
 """)
+
 
 
