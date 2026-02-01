@@ -1,26 +1,22 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 28 18:44:34 2026
-
-@author: User
-"""
 import streamlit as st
-
-st.set_page_config(layout="wide")
 
 st.set_page_config(
     page_title="Johnny – CSS 2026",
-    page_icon="👨🏾‍💻"
+    page_icon="👨🏾‍💻",
+    layout="wide"
 )
 
+# HEADER
 st.title("Johnny Lukanka")
 st.subheader("Coding Summer School 2026")
-st.subheader("Whatever you do, as long as you choose to do it, dedicate your heart")
+st.markdown("> *Whatever you do, as long as you choose to do it, dedicate your heart*")
+
 st.write("""
-This is my public Streamlit website.
+This is my public Streamlit website.  
 It presents my profile and my work.
 """)
 
+# ABOUT ME
 st.header("About Me")
 st.write("""
 My name is Johnny, and I am passionate about technology and continuous learning.
@@ -31,29 +27,23 @@ and website development, with a practical and progressive approach.
 This website reflects my journey, my efforts, and my desire to turn 
 learning into something concrete and personal.
 """)
-st.subheader("I'm working on")
+
+# WORKING ON
+st.subheader("I'm currently working on")
 st.markdown("""
 - Learning Python fundamentals  
 - Building data pipelines  
-- Creating Streamlit web apps
-""")
-st.image("Landcruiser1.jpeg", width=2200)
-st.markdown("""
-This is not the best car in the world, but it's my favourite, the first one! Toyota LandCruiser
+- Creating Streamlit web apps  
 """)
 
-st.image("Ford1.avif", width=2200)
-st.markdown("""
-This is my second one, a Ford Ranger
-""")
+# PASSIONS / CARS
+st.header("Things I Like")
 
-st.image("DodgeRam.jpg", width=2200)
-st.markdown("""
-This is my third one, a DodgeRam
-""")
+st.image("Landcruiser1.jpeg", use_container_width=True)
+st.caption("My favourite one – Toyota LandCruiser")
 
+st.image("Ford1.avif", use_container_width=True)
+st.caption("My second one – Ford Ranger")
 
-
-
-
-
+st.image("DodgeRam.jpg", use_container_width=True)
+st.caption("My third one – Dodge Ram")
