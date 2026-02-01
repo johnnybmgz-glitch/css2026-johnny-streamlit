@@ -9,13 +9,14 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #0e1117;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
         color: white;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 # HEADER
 st.title("Johnny Lukanka")
@@ -58,5 +59,6 @@ st.caption("My second one – Ford Ranger")
 
 st.image("DodgeRam.jpg", use_container_width=True)
 st.caption("My third one – Dodge Ram")
+
 
 
