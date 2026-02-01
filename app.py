@@ -33,8 +33,9 @@ st.markdown("""
 - Creating Streamlit web apps
 - I love beans so bad
 """)
-st.image("car3.jpg", width=220)
-st.image("car7.jpg", width=220)
+st.image("car3.jpg", width=2200)
+st.image("car7.jpg", width=2200)
+
 
 
 
