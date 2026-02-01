@@ -5,6 +5,17 @@ st.set_page_config(
     page_icon="👨🏾‍💻",
     layout="wide"
 )
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #0e1117;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # HEADER
 st.title("Johnny Lukanka")
@@ -47,4 +58,5 @@ st.caption("My second one – Ford Ranger")
 
 st.image("DodgeRam.jpg", use_container_width=True)
 st.caption("My third one – Dodge Ram")
+
 
