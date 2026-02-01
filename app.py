@@ -9,7 +9,7 @@ st.set_page_config(
 # HEADER
 st.title("Johnny Lukanka")
 st.subheader("Coding Summer School 2026")
-st.markdown("> *Whatever you do, as long as you choose to do it, dedicate your heart*")
+st.markdown("> *Whatever you do, as long as you choose to do it, dedicate your heart!*")
 
 st.write("""
 This is my public Streamlit website.  
@@ -47,3 +47,4 @@ st.caption("My second one – Ford Ranger")
 
 st.image("DodgeRam.jpg", use_container_width=True)
 st.caption("My third one – Dodge Ram")
+
